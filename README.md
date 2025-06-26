@@ -4,7 +4,7 @@
 
 **phpShort** is a powerful, self-hosted URL shortener platform built to create, manage, and track branded short links. With a modern interface and robust feature set, phpShort enables users to shorten links, customize aliases, set targeting rules, and analyze detailed analytics. It supports custom domains, retargeting pixels, and integrations with payment gateways for subscription-based services.
 
-This project is ideal for developers, marketers, and businesses looking to manage links efficiently while maintaining brand control and gaining insights into audience behavior. Get a free license code : [](https://lunatio.de/license)[](https://lunatio.de/phpshort/)
+This project is ideal for developers, marketers, and businesses looking to manage links efficiently while maintaining brand control and gaining insights into audience behavior. Get a free license code : [https://lunatio.de/license](https://lunatio.de/license)[](https://lunatio.de/phpshort/)
 
 ## Features
 
