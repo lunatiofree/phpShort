@@ -82,13 +82,12 @@ phpShort is a premium software available via a one-time purchase license, provid
 - **Regular License**: For personal use.
 - **Extended License**: For subscription-based SaaS services.
 
-Purchase and licensing details are available at [CodeCanyon](https://codecanyon.net/item/phpshort-url-shortener-platform/27526947).[](https://codecanyon.net/item/phpshort-url-shortener-software/26536593)[](https://lunatio.de/phpshort/)
+Purchase and licensing ? Just forget it! it's free now!
 
 ## Support
 
 - **Documentation**: [https://lunatio.de/phpshort/documentation](https://lunatio.de/phpshort/documentation)[](https://lunatio.de/phpshort/documentation)
 - **Contact**: Reach out via [Lunatio Support](https://lunatio.de/contact) for assistance.
-- **Community**: Join discussions on [Babiato Forums](https://babia.to) for community-driven support.[](https://babia.to/threads/phpshort-url-shortener-platform-by-lunatio.35442/)
 
 ## Contributing
 
