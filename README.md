@@ -1,24 +1,24 @@
-# phpShort - URL Shortener Platform
+# Free phpShort - URL Shortener Platform
 
 ## Overview
 
 **phpShort** is a powerful, self-hosted URL shortener platform built to create, manage, and track branded short links. With a modern interface and robust feature set, phpShort enables users to shorten links, customize aliases, set targeting rules, and analyze detailed analytics. It supports custom domains, retargeting pixels, and integrations with payment gateways for subscription-based services.
 
-This project is ideal for developers, marketers, and businesses looking to manage links efficiently while maintaining brand control and gaining insights into audience behavior. Get a free license code : [https://lunatio.de/license](https://lunatio.de/license)[](https://lunatio.de/phpshort/)
+This project is ideal for developers, marketers, and businesses looking to manage links efficiently while maintaining brand control and gaining insights into audience behavior. Get a free license code : [https://lunatio.de/license](https://lunatio.de/license)
 
 ## Features
 
-- **Link Management**: Shorten links individually or in bulk, with custom aliases, password protection, expiration dates, and targeting rules (e.g., by country, platform, or language).[](https://codecanyon.net/item/phpshort-url-shortener-software/26536593)[](https://api.lunatio.de/phpshort)
-- **Spaces**: Organize links into color-coded spaces for easy management.[](https://codecanyon.net/item/phpshort-url-shortener-software/26536593)
-- **Custom Domains**: Brand your links with custom domains to boost click-through rates by up to 35%.[](https://codecanyon.net/item/phpshort-url-shortener-software/26536593)
-- **Advanced Analytics**: Track audience insights including referrers, countries, cities, languages, platforms, browsers, and devices. GDPR, CCPA, and PECR compliant.[](https://codecanyon.net/item/phpshort-url-shortener-software/26536593)[](https://lunatio.de/phpshort/)
-- **Retargeting Pixels**: Integrate with popular retargeting platforms to enhance conversion rates.[](https://codecanyon.net/item/phpshort-url-shortener-software/26536593)
-- **Export & Sharing**: Export link statistics in CSV format and share links via email, QR codes, or social networks (Twitter, Facebook, Reddit, Pinterest, LinkedIn, etc.).[](https://codecanyon.net/item/phpshort-url-shortener-software/26536593)
-- **Subscription Plans**: Offer custom plans with monthly/yearly pricing, tax rates, and coupons. Supports payments via PayPal, Stripe, Razorpay, Paystack, Coinbase, Crypto.com, and bank transfers.[](https://lunatio.de/phpshort/)[](https://phpsocial.lunatio.de/phpshort/)
-- **API Support**: Manage links, spaces, domains, and pixels programmatically via a RESTful API.[](https://phpshort.lunatio.de/developers/links)[](https://phpshort.lunatio.de/developers)
-- **Admin Panel**: Comprehensive dashboard to manage users, payments, plans, tax rates, and website settings.[](https://codecanyon.net/item/phpshort-url-shortener-software/26536593)[](https://lunatio.de/phpshort/)
-- **Multi-Language Support**: Customize the platform for different languages.[](https://lunatio.de/phpshort/)
-- **S3 Storage**: Store user-uploaded files using Amazon S3, DigitalOcean Spaces, Backblaze B2, etc.[](https://lunatio.de/phpshort/changelog)
+- **Link Management**: Shorten links individually or in bulk, with custom aliases, password protection, expiration dates, and targeting rules (e.g., by country, platform, or language).
+- **Spaces**: Organize links into color-coded spaces for easy management.
+- **Custom Domains**: Brand your links with custom domains to boost click-through rates by up to 35%.
+- **Advanced Analytics**: Track audience insights including referrers, countries, cities, languages, platforms, browsers, and devices. GDPR, CCPA, and PECR compliant.
+- **Retargeting Pixels**: Integrate with popular retargeting platforms to enhance conversion rates.
+- **Export & Sharing**: Export link statistics in CSV format and share links via email, QR codes, or social networks (Twitter, Facebook, Reddit, Pinterest, LinkedIn, etc.).
+- **Subscription Plans**: Offer custom plans with monthly/yearly pricing, tax rates, and coupons. Supports payments via PayPal, Stripe, Razorpay, Paystack, Coinbase, Crypto.com, and bank transfers.
+- **API Support**: Manage links, spaces, domains, and pixels programmatically via a RESTful API.
+- **Admin Panel**: Comprehensive dashboard to manage users, payments, plans, tax rates, and website settings.
+- **Multi-Language Support**: Customize the platform for different languages.
+- **S3 Storage**: Store user-uploaded files using Amazon S3, DigitalOcean Spaces, Backblaze B2, etc.
 
 ## Requirements
 
@@ -30,30 +30,29 @@ To run phpShort, ensure your server meets the following requirements:
 - SMTP server for email notifications
 - (Optional) S3-compatible storage for file uploads
 
-For detailed requirements, refer to the [official documentation](https://lunatio.de/phpshort/documentation).[](https://lunatio.de/phpshort/documentation)
+For detailed requirements, refer to the [official documentation](https://lunatio.de/phpshort/documentation).
 
 ## Installation
 
 1. **Create a MySQL Database**:
    - Create a new MySQL database and assign a user with full privileges.
 2. **Upload Files**:
-   - Download the phpShort software from [CodeCanyon](https://codecanyon.net/item/phpshort-url-shortener-platform/27526947) or your purchased source.
+   - Download the phpShort software from here or click [https://lunatio.de/download.php?item=phpshort](https://lunatio.de/download.php?item=phpshort) or your purchased source.
    - Upload the contents of the `Software` folder to your web server's root (e.g., `public_html` or `example.com`).
-   - Ensure the web server’s document root points to the `/public` directory.[](https://lunatio.de/phpshort/documentation)
+   - Ensure the web server’s document root points to the `/public` directory.
 3. **Run Installation Wizard**:
-   - Navigate to `https://your-domain.com/install` and follow the on-screen instructions to configure the database and initial settings.[](https://lunatio.de/phpshort/documentation)
+   - Navigate to `https://your-domain.com/install` and follow the on-screen instructions to configure the database and initial settings.
 4. **Activate License**:
    - Log in to your user account and go to `https://your-domain.com/admin`.
-   - Enter your license key to activate the software.[](https://lunatio.de/phpshort/documentation)
+   - Enter your license key to activate the software.
 5. **Set Up Cron Job**:
-   - In the admin panel, go to **Settings > Cron Job**, copy the provided command, and set up a cron job to run every minute.[](https://lunatio.de/phpshort/documentation)
+   - In the admin panel, go to **Settings > Cron Job**, copy the provided command, and set up a cron job to run every minute.
 6. **Configure Email**:
-   - In **Admin > Settings > Email**, set the driver to SMTP and enter your SMTP credentials.[](https://lunatio.de/phpshort/documentation)
+   - In **Admin > Settings > Email**, set the driver to SMTP and enter your SMTP credentials.
 7. **(Optional) Configure Storage**:
-   - For S3-compatible storage, configure settings in **Admin > Settings > Storage** with your provider’s access keys and endpoint.[](https://lunatio.de/phpshort/documentation)
+   - For S3-compatible storage, configure settings in **Admin > Settings > Storage** with your provider’s access keys and endpoint.
 
-For detailed instructions, see the [official documentation](https://lunatio.de/phpshort/documentation).[](https://lunatio.de/phpshort/documentation)
-
+For detailed instructions, see the [official documentation](https://lunatio.de/phpshort/documentation).
 ## Updating
 
 To update phpShort to the latest version:
@@ -62,7 +61,7 @@ To update phpShort to the latest version:
 3. Restore the `.env` file.
 4. Navigate to `https://your-domain.com/update` and follow the update wizard.
 
-**Note**: Version 46 and above include timezone support for stats, which may reset previous statistics due to a database restructure.[](https://lunatio.de/phpshort/documentation)[](https://lunatio.de/phpshort/changelog)
+**Note**: Version 46 and above include timezone support for stats, which may reset previous statistics due to a database restructure.
 
 ## API Usage
 
@@ -74,7 +73,7 @@ curl --location --request GET 'https://phpshort.lunatio.de/api/v1/links' \
 --header 'Authorization: Bearer {api_key}'
 ```
 
-For full API documentation, visit [phpShort API Docs](https://phpshort.lunatio.de/developers).[](https://phpshort.lunatio.de/developers/links)
+For full API documentation, visit [phpShort API Docs](https://phpshort.lunatio.de/developers).
 
 ## License
 
@@ -86,7 +85,7 @@ Purchase and licensing ? Just forget it! it's free now!
 
 ## Support
 
-- **Documentation**: [https://lunatio.de/phpshort/documentation](https://lunatio.de/phpshort/documentation)[](https://lunatio.de/phpshort/documentation)
+- **Documentation**: [https://lunatio.de/phpshort/documentation](https://lunatio.de/phpshort/documentation)
 - **Contact**: Reach out via [Lunatio Support](https://lunatio.de/contact) for assistance.
 
 ## Contributing
@@ -102,7 +101,7 @@ Please ensure your code adheres to the project’s coding standards and includes
 
 ## Disclaimer
 
-This README is a community-created guide and not officially affiliated with Lunatio. For official documentation and support, visit [Lunatio](https://lunatio.de/phpshort).[](https://lunatio.de/phpshort/)
+This README is a community-created guide and not officially affiliated with Lunatio. For official documentation and support, visit [Lunatio](https://lunatio.de/phpshort).
 
 ---
 
